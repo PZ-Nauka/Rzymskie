@@ -67,13 +67,6 @@ def najwiekszy_klucz(liczba):
 
 
 def zamien_ara_do_rz(liczbaA):
-    cyfry = [
-        int(liczbaA/1000),
-        int(liczbaA%1000-liczbaA%100),
-        int(liczbaA%100-liczbaA%10),
-        int(liczbaA%10)
-    ]
-    
     liczbaR = ""
     
     while liczbaA > 0:
